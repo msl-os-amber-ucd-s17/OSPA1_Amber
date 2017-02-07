@@ -1,0 +1,1 @@
+/usr/bin/cc  -g  -Wl,--enable-auto-import CMakeFiles/OSPA1_Amber.dir/main.c.o CMakeFiles/OSPA1_Amber.dir/tree.c.o  -o OSPA1_Amber.exe -Wl,--out-implib,libOSPA1_Amber.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

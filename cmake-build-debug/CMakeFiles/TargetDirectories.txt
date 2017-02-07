@@ -1,0 +1,3 @@
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles/OSPA1_Amber.dir

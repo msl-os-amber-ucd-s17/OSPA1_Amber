@@ -1,0 +1,14 @@
+aid	1
+all	1
+come	1
+country	1
+for	1
+good	1
+is	1
+men	1
+now	1
+of	1
+the	2
+their	1
+time	1
+to	2

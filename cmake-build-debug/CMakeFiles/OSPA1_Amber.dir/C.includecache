@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/main.c
+tree.h
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.h
+
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.c
+tree.h
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.h
+
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+
