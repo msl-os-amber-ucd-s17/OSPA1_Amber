@@ -1,3 +1,4 @@
+
 # Operating Systems Concepts: Programming Assignment C1
 ###### Collaborators: Alex Foreman, Chris Lauber, Jian Peng, Michael Valdez
 
@@ -12,6 +13,7 @@ Approach
 ---------------
 ######Pseudocode:  
 ***main(inputfile):***
+
 1. openfile(inputfile)
 2. while(getword returns true)
 3. ---searchtree(root, word)
@@ -23,6 +25,7 @@ Approach
 
 
 ***searchTree(node, word):***
+
 1. if(word == node->word) ++count
 2. else if (word < node->word)
 3. ---if(node->leftchild == null) 
@@ -35,6 +38,7 @@ Approach
 
 
 ***addNode(word):***
+
 1. node* newNode = (node*)alloc(***"enough space for newNode"***)
 2. newNode->word = (char*)alloc(***"enough space for word"***)
 3. newNode->word = word ***//use strcpy()***
@@ -44,12 +48,14 @@ Approach
 
 
 ***printTree(node, outfile):***
+
 1. if(node == null) return
 2. printTree(node->leftchild, outfile)
 3. print word, ':',  ' ', count, '\n'
 4. printTree(node->rightchild, outfile)
 
 ***destroyTree(node):***
+
 1. if(node == null) return
 2. destroyTree(node->leftchild)
 3. destroyTree(node->rightchild)
