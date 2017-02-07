@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Tyhhy/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/Alex/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Tyhhy/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/Alex/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber
+CMAKE_SOURCE_DIR = /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OSPA1_Amber.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/OSPA1_Amber.dir/flags.make
 
 CMakeFiles/OSPA1_Amber.dir/main.c.o: CMakeFiles/OSPA1_Amber.dir/flags.make
 CMakeFiles/OSPA1_Amber.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OSPA1_Amber.dir/main.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OSPA1_Amber.dir/main.c.o   -c /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OSPA1_Amber.dir/main.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OSPA1_Amber.dir/main.c.o   -c /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/main.c
 
 CMakeFiles/OSPA1_Amber.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSPA1_Amber.dir/main.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/main.c > CMakeFiles/OSPA1_Amber.dir/main.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/main.c > CMakeFiles/OSPA1_Amber.dir/main.c.i
 
 CMakeFiles/OSPA1_Amber.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSPA1_Amber.dir/main.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/main.c -o CMakeFiles/OSPA1_Amber.dir/main.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/main.c -o CMakeFiles/OSPA1_Amber.dir/main.c.s
 
 CMakeFiles/OSPA1_Amber.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/OSPA1_Amber.dir/main.c.o.provides.build: CMakeFiles/OSPA1_Amber.dir/m
 
 CMakeFiles/OSPA1_Amber.dir/tree.c.o: CMakeFiles/OSPA1_Amber.dir/flags.make
 CMakeFiles/OSPA1_Amber.dir/tree.c.o: ../tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OSPA1_Amber.dir/tree.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OSPA1_Amber.dir/tree.c.o   -c /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OSPA1_Amber.dir/tree.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OSPA1_Amber.dir/tree.c.o   -c /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/tree.c
 
 CMakeFiles/OSPA1_Amber.dir/tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSPA1_Amber.dir/tree.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.c > CMakeFiles/OSPA1_Amber.dir/tree.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/tree.c > CMakeFiles/OSPA1_Amber.dir/tree.c.i
 
 CMakeFiles/OSPA1_Amber.dir/tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSPA1_Amber.dir/tree.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.c -o CMakeFiles/OSPA1_Amber.dir/tree.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/tree.c -o CMakeFiles/OSPA1_Amber.dir/tree.c.s
 
 CMakeFiles/OSPA1_Amber.dir/tree.c.o.requires:
 
@@ -117,7 +117,7 @@ OSPA1_Amber.exe: CMakeFiles/OSPA1_Amber.dir/main.c.o
 OSPA1_Amber.exe: CMakeFiles/OSPA1_Amber.dir/tree.c.o
 OSPA1_Amber.exe: CMakeFiles/OSPA1_Amber.dir/build.make
 OSPA1_Amber.exe: CMakeFiles/OSPA1_Amber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable OSPA1_Amber.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable OSPA1_Amber.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OSPA1_Amber.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/OSPA1_Amber.dir/clean:
 .PHONY : CMakeFiles/OSPA1_Amber.dir/clean
 
 CMakeFiles/OSPA1_Amber.dir/depend:
-	cd /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles/OSPA1_Amber.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles/OSPA1_Amber.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OSPA1_Amber.dir/depend
 

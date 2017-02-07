@@ -28,22 +28,19 @@ NodeT addNode(const char* curr_word) {
 }
 
 void printTree(NodeT current_node, FILE* o){
-//    if(current_node->left_node != NULL){
-//        printTree(current_node->left_node, o);
-//    }
     if(current_node == NULL){
         return;
     }
     printTree(current_node->left_node, o);
+
     // Print word and count
     fprintf(o, "%s", current_node->word);
-    fprintf(o, "%c", '\t');
+    fprintf(o, "%c", ':');
+    fprintf(o, "%c", ' ');
     fprintf(o, "%u", current_node->count);
     fprintf(o, "%c", '\n');
+
     printTree(current_node->right_node, o);
-//    if(current_node->right_node != NULL) {
-//        printTree(current_node->right_node, o);
-//    }
 }
 
 void destroyTree(NodeT current_node){
