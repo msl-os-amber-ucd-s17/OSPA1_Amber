@@ -43,5 +43,5 @@ int main(int argc, char** argv) {
     destroyTree(root);
 
 
-    return 0;
+    exit(0);
 }
