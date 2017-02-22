@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/main.c
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/main.c
 tree.h
-/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/tree.h
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.h
 
-/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/tree.c
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.c
 tree.h
-/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/tree.h
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.h
 
-/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/tree.h
+/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.h
 stdio.h
 -
 stdlib.h

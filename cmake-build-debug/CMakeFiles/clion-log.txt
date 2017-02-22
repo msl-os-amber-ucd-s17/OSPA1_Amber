@@ -1,4 +1,4 @@
-C:\Users\Alex\.CLion2016.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber
+C:\Users\Tyhhy\.CLion2016.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber
 -- The C compiler identification is GNU 4.9.3
 -- The CXX compiler identification is GNU 4.9.3
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@ C:\Users\Alex\.CLion2016.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug

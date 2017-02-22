@@ -1,6 +1,9 @@
 #include "tree.h"
 
-void searchTree(NodeT current_node, const char* curr_word) {
+word_nodePTR addRoot(const char* curr_word){
+    return addNode(curr_word);
+}
+void searchTree(word_nodePTR current_node, const char* curr_word) {
     if(!strcmp(current_node->word, curr_word)){
         ++current_node->count;
     } else if (strcmp(curr_word, current_node->word) < 0){
@@ -18,8 +21,8 @@ void searchTree(NodeT current_node, const char* curr_word) {
     }
 }
 
-NodeT addNode(const char* curr_word) {
-    NodeT new_node = (NodeT)malloc(sizeof(struct word_node));
+word_nodePTR addNode(const char* curr_word) {
+    word_nodePTR new_node = (word_nodePTR)malloc(sizeof(struct word_node));
     new_node->word = (char *)malloc(sizeof(char)*strlen(curr_word+1));
     strcpy(new_node->word, curr_word);
     new_node->count = 1;
@@ -27,7 +30,7 @@ NodeT addNode(const char* curr_word) {
     return new_node;
 }
 
-void printTree(NodeT current_node, FILE* o){
+void printTree(word_nodePTR current_node, FILE* o){
     if(current_node == NULL){
         return;
     }
@@ -43,7 +46,7 @@ void printTree(NodeT current_node, FILE* o){
     printTree(current_node->right_node, o);
 }
 
-void destroyTree(NodeT current_node){
+void destroyTree(word_nodePTR current_node){
     if(current_node == NULL) {
         return;
     }

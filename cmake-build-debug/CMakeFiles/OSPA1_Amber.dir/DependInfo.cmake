@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/main.c" "/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles/OSPA1_Amber.dir/main.c.o"
-  "/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/tree.c" "/cygdrive/p/Users/Alex/CLionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles/OSPA1_Amber.dir/tree.c.o"
+  "/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/main.c" "/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles/OSPA1_Amber.dir/main.c.o"
+  "/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/tree.c" "/cygdrive/c/Users/Tyhhy/ClionProjects/OSPA1_Amber/cmake-build-debug/CMakeFiles/OSPA1_Amber.dir/tree.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
